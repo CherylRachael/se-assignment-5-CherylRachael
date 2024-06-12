@@ -326,12 +326,12 @@ VS Code allows you to configure debugging environments and launch configurations
    Click on the Source Control icon in the Activity Bar on the side (or press Ctrl + Shift + G).
    Click on the "Initialize Repository" button (or "Initialize Git Repository Here" if the folder is not already a Git repository).
    Alternatively, you can initialize a repository using Git commands in the integrated terminal (`Ctrl + ``).
-1. Stage and Commit Changes:
+2. Stage and Commit Changes:
    Make changes to your files within the project folder.
    In the Source Control view, you'll see a list of changed files. Click on the "+" button next to each file to stage it for commit, or use the "Stage All Changes" button to stage all changes at once.
    Enter a commit message in the text box at the top of the Source Control view.
    Click on the checkmark button to commit the changes.
-1. Push Changes to GitHub:
+3. Push Changes to GitHub:
    If you haven't already, create a repository on GitHub to store your project.
    Copy the repository URL (e.g., https://github.com/username/repository.git).
    Back in VS Code, click on the ellipsis (...) next to "Changes" in the Source Control view and select "Publish to GitHub".
