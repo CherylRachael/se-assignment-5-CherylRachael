@@ -319,12 +319,12 @@ The Debug Console allows you to interact with your program during debugging sess
 Debugging Configuration:
 VS Code allows you to configure debugging environments and launch configurations for various scenarios, including web applications, server-side applications, and more.
 
-10. Using Source Control: - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
-    Initialize a Repository:
-    Open your project folder in VS Code.
-    Click on the Source Control icon in the Activity Bar on the side (or press Ctrl + Shift + G).
-    Click on the "Initialize Repository" button (or "Initialize Git Repository Here" if the folder is not already a Git repository).
-    Alternatively, you can initialize a repository using Git commands in the integrated terminal (`Ctrl + ``).
+<<<<<<< HEAD 10. Using Source Control: - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+Initialize a Repository:
+Open your project folder in VS Code.
+Click on the Source Control icon in the Activity Bar on the side (or press Ctrl + Shift + G).
+Click on the "Initialize Repository" button (or "Initialize Git Repository Here" if the folder is not already a Git repository).
+Alternatively, you can initialize a repository using Git commands in the integrated terminal (` Ctrl + ``).
     Stage and Commit Changes:
     Make changes to your files within the project folder.
     In the Source Control view, you'll see a list of changed files. Click on the "+" button next to each file to stage it for commit, or use the "Stage All Changes" button to stage all changes at once.
@@ -346,3 +346,34 @@ VS Code allows you to configure debugging environments and launch configurations
     Branch Management: You can create, switch between, and merge branches directly from within VS Code.
     Commit History: View commit history, compare changes between commits, and revert changes if needed.
     Integrated Terminal: The integrated terminal in VS Code allows you to run Git commands directly within the editor.
+=======
+10. Using Source Control:
+    - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+Initialize a Repository:
+   Open your project folder in VS Code.
+   Click on the Source Control icon in the Activity Bar on the side (or press Ctrl + Shift + G).
+   Click on the "Initialize Repository" button (or "Initialize Git Repository Here" if the folder is not already a Git repository).
+   Alternatively, you can initialize a repository using Git commands in the integrated terminal ( `Ctrl + ``).
+Stage and Commit Changes:
+Make changes to your files within the project folder.
+In the Source Control view, you'll see a list of changed files. Click on the "+" button next to each file to stage it for commit, or use the "Stage All Changes" button to stage all changes at once.
+Enter a commit message in the text box at the top of the Source Control view.
+Click on the checkmark button to commit the changes.
+Push Changes to GitHub:
+If you haven't already, create a repository on GitHub to store your project.
+Copy the repository URL (e.g., https://github.com/username/repository.git).
+Back in VS Code, click on the ellipsis (...) next to "Changes" in the Source Control view and select "Publish to GitHub".
+Paste the repository URL and press Enter.
+You'll be prompted to log in to your GitHub account and authorize VS Code to access your repositories.
+Once authorized, VS Code will push your changes to GitHub.
+Additional Tips:
+To make subsequent commits, simply repeat the staging and committing process described above.
+To pull changes from a remote repository (e.g., GitHub), click on the ellipsis (...) next to "Changes" in the Source Control view and select "Pull".
+To push changes to the remote repository, click on the ellipsis (...) next to "Changes" and select "Push".
+Key Git Features in VS Code:
+Visual Diff Viewer: VS Code provides a visual diff viewer to compare changes between different versions of files.
+Branch Management: You can create, switch between, and merge branches directly from within VS Code.
+Commit History: View commit history, compare changes between commits, and revert changes if needed.
+Integrated Terminal: The integrated terminal in VS Code allows you to run Git commands directly within the editor.
+
+> > > > > > > 69d5a499e9cc8bee75fc573c0cd2188b71148a65
